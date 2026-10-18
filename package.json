@@ -8,9 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "groq-sdk": "^1.6.0",
+    "highlight.js": "^11.12.0",
+    "lucide-react": "^1.59.0",
     "next": "16.4.2",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
