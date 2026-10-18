@@ -12,7 +12,7 @@ function getGroqClient(): Groq | null {
 }
 
 function getModelName(): string {
-  return process.env.GROQ_MODEL || 'llama-3.1-8b-instant';
+  return process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
 }
 
 export async function POST(req: NextRequest) {
